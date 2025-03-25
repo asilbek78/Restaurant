@@ -1,0 +1,14 @@
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bgi {
+  background-image: url("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/imgs/osh-mainbg.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWdzL29zaC1tYWluYmcud2VicCIsImlhdCI6MTc0MjYzNzMzNiwiZXhwIjoxNzc0MTczMzM2fQ.izo6tglB0mIsTsKFd4O-9txi2I5VKxdyMAb9hzQB9jo");
+  width: auto;
+  height: auto;
+  background-size: cover;
+  /* background-position: no; */
+}

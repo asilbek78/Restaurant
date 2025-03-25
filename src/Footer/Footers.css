@@ -1,0 +1,25 @@
+@media (max-width: 1199px) {
+    .yuq {
+      display: none;
+    }
+  }
+  @media (max-width: 981px) {
+    .uls {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 981px) {
+    .divs {
+      transform: scale(0.8);
+    }
+  }
+  @media (max-width: 981px) {
+    .xarita {
+      transform: scale(0.8);
+    }
+  }
+  @media (max-width: 981px) {
+    .xarita {
+      transform: scale(0.9);
+    }
+  }
