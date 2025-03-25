@@ -4,7 +4,7 @@ import { useTheme } from "../../Hook/UseTheme";
 
 function Sharhlar() {
   const { i18n } = useTranslation();
-  const { data: datas, isLoading } = UseFetch("/public/db.json");
+  const { data: datas, isLoading } = UseFetch("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzQyODg4ODk2LCJleHAiOjE3NzQ0MjQ4OTZ9.NV0T1LNduVjHMtwonR04cVgRfKQSXTw0O52a-Qp5izE");
   const [theme, setTheme] = useTheme("");
 
   console.log(datas?.sharhlar);

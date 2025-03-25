@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 function Dengizdetails() {
   const { details: paramname } = useParams();
-  const { data, isLoading } = UseFetch("/public/db.json");
+  const { data, isLoading } = UseFetch("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzQyODg4ODk2LCJleHAiOjE3NzQ0MjQ4OTZ9.NV0T1LNduVjHMtwonR04cVgRfKQSXTw0O52a-Qp5izE");
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [modal, setModal] = useState(false);

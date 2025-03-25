@@ -10,7 +10,7 @@ import Firsthome from "../../Home/firsthome";
 import Static from "./static";
 function Biz_Haqimizda() {
   const { t } = useTranslation();
-  const { data: four, isLoading } = UseFetch("/public/db.json");
+  const { data: four, isLoading } = UseFetch("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzQyODg4ODk2LCJleHAiOjE3NzQ0MjQ4OTZ9.NV0T1LNduVjHMtwonR04cVgRfKQSXTw0O52a-Qp5izE");
   return (
     <>
       {isLoading && <h1 className="flex justify-center text-2xl text-orange-400">Loading...</h1>}

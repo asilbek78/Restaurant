@@ -17,7 +17,7 @@ import AOS from "aos";
 import Firsthome from "./firsthome"
 function Home() {
   const { t, i18n } = useTranslation();
-  const { data: one, isLoading } = UseFetch("/public/db.json");
+  const { data: one, isLoading } = UseFetch("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzQyODg4ODk2LCJleHAiOjE3NzQ0MjQ4OTZ9.NV0T1LNduVjHMtwonR04cVgRfKQSXTw0O52a-Qp5izE");
 
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });

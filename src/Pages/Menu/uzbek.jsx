@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function uzbek() {
   const { i18n } = useTranslation();
-  const { data: seven, isLoading } = UseFetch("/public/db.json");
+  const { data: seven, isLoading } = UseFetch("https://omvwbniuooqqvunluhkz.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzQyODg4ODk2LCJleHAiOjE3NzQ0MjQ4OTZ9.NV0T1LNduVjHMtwonR04cVgRfKQSXTw0O52a-Qp5izE");
   return (
     <>
       {isLoading && <h1 className="flex justify-center text-orange-400 text-2xl">Loading...</h1>}
